@@ -8,7 +8,7 @@ setup(
     description='Recursion and Sorting Package',
     long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/Charmaine Shongwe/RecSort',
+    url='https://github.com/Thenji/RecSort',
     author='Charmaine',
     author_email='ctshongwe@gmail.com'
 )
