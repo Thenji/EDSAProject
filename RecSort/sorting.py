@@ -61,20 +61,17 @@ def merge_sort(items):
     return merge(i1, i2)
 
 def quick_sort(items, index=-1):
-        """
-        Return array of items, sorted in ascending order
 
-        Args:
-            array: list or array-type object containing numerical values.
-        Returns:
-            array: sorted in ascending order
-        """
+    """
+    Return array of items, sorted in ascending order
+
+    Args:
+        array: list or array-type object containing numerical values.
+    Returns:
+        array: sorted in ascending order
+    """
     len_i = len(items)
-
     if len_i <= 1:
-        # Logic Error
-        # identified with test run [1,5,4,3, 2, 6, 5, 4, 3, 8, 6, 5, 3, 1]
-        # len <= 1
         return items
 
     pivot = items[index]
